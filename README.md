@@ -8,7 +8,15 @@ __Notice__: The Underscore.php library currently throws [Static invocations warn
 1. Clone/Download the plugin into your app's ``libraries`` directory.
 2. Tell your app to load the plugin by adding the following to your app's ``config/bootstrap/libraries.php``:
 
-        Libraries::add('li3_underscore');
+	Libraries::add('li3_underscore');
+
+3. Pull the seperate [Underscore.php](http://brianhaveri.github.com/Underscore.php) project into the lithium plugin
+
+~~~ shell
+$ cd app/libraries/li3_underscore
+$ git submodule init
+$ git submodule update
+~~~
 
 That's basically it, to use just call the underscore class wherever you needed it, like so:
 
