@@ -16,19 +16,21 @@ That's basically it, to use just call the underscore class wherever you needed i
 
 ~~~ php
 <?php
-namespace app\controllers;
-use app\models\Page;
+namespace app\models;
 use __; // expose underscore.php to our controller
 
-class PagesController extends BaseController {
+class PageModel extends BaseModel {
 	
 	...
 
-	public function home(){
+	public function underscore(){
+
 		error_reporting(E_ALL); // exclude strict warnings, otherwise underscore reports static invocation warnings.
+
 		$myArray = array('1', 'two', 3);
 		$object = __::isObject($myArray); // returns false
 		$array = __::isArray($myArray); // returns true
+
 	}
 
 	...
