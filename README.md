@@ -3,8 +3,28 @@
 ***
 __Notice__: The Underscore.php library currently throws [Static invocations warnings](https://github.com/brianhaveri/Underscore.php/issues/4) when reporting level includes E_Strict. To use make sure your error reporting level does not include E_Strict
 ***
-
 ## Installation
+There are several ways to grab and use this project:
+
+### Use Composer
+__Best Option (default)__
+
+Modify your projects `composer.json` file
+
+~~~ json
+{
+    "require": {
+    	...
+        "joseym/li3_underscore": "master"
+        ...
+    }
+}
+~~~
+
+Run `php composer.phar install` (or `php composer.phar update`) and, aside from adding it to your Libraries, you should be good to go.
+
+### Load via Submodule
+__More manual, bleh. Seriously, Composer is awesome__
 1. Clone/Download the plugin into your app's ``libraries`` directory.
 2. Tell your app to load the plugin by adding the following to your app's ``config/bootstrap/libraries.php``:
 

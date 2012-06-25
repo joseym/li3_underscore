@@ -16,7 +16,7 @@
 	"require": {
 		"php": ">=5.3",
 		"joseym/li3_installer": "master",
-                "mdx-dev/Underscore.php": "master"
+                "underscore/Underscore.php": "dev-master"
 	}
 
 }
