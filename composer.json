@@ -1,0 +1,22 @@
+{
+	"name": "joseym/li3_underscore",
+	"type": "li3-libraries",
+	"description": "Lithium PHP plugin to extend the framework with nifty Underscore.js type functionality and methods",
+	"keywords": ["underscore", "php", "underscore.js", "lithium", "li3"],
+	"homepage": "https://github.com/joseym/li3_underscore",
+	"license": "GNU General Public License",
+	"authors": [
+		{
+			"name": "Josey Morton",
+			"email": "me@joseymorton.com",
+			"homepage": "https://github.com/joseym"
+		}
+	],
+
+	"require": {
+		"php": ">=5.3",
+		"joseym/li3_installer": "master",
+                "mdx-dev/Underscore.php": "master"
+	}
+
+}
