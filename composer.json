@@ -1,5 +1,5 @@
 {
-	"name": "joseym/li3_underscore",
+	"name": "nwp/li3_underscore",
 	"type": "li3-libraries",
 	"description": "Lithium PHP plugin to extend the framework with nifty Underscore.js type functionality and methods",
 	"keywords": ["underscore", "php", "underscore.js", "lithium", "li3"],
